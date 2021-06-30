@@ -65,7 +65,7 @@ function loadWidget(config) {
 				window.ASTEROIDSPLAYERS.push(new Asteroids());
 			} else {
 				const script = document.createElement("script");
-				script.src = "https://cdn.jsdelivr.net/gh/stevenjoezhang/asteroids/asteroids.js";
+				script.src = "https://cdn.jsdelivr.net/gh//wecsan/shunbai/autoload.js";
 				document.head.appendChild(script);
 			}
 		});
